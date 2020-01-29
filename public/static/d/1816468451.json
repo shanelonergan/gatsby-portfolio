@@ -1,0 +1,46 @@
+{
+  "data": {
+    "contentfulAbout": {
+      "name": "Shane",
+      "roles": [
+        "Web Developer 👨‍💻",
+        "React Lover ⚛️",
+        "Ruby on Rails Engineer 💎",
+        "JavaScript Wrangler 🤠"
+      ],
+      "socialLinks": [
+        {
+          "id": "d346bda6-36b7-511c-a363-b79320d1d6a1",
+          "url": "https://github.com/shanelonergan",
+          "name": "Github",
+          "fontAwesomeIcon": "github"
+        },
+        {
+          "id": "0e71cbfd-ee90-56a5-b365-d538d8a7171a",
+          "url": "https://medium.com/@sptlonergan",
+          "name": "Medium",
+          "fontAwesomeIcon": "medium"
+        },
+        {
+          "id": "84da2bc3-d7ca-5fb9-add6-a01b3df06489",
+          "url": "https://shane823656.typeform.com/to/gXwRT3",
+          "name": "Contact me",
+          "fontAwesomeIcon": "envelope"
+        },
+        {
+          "id": "e45de385-02a6-50fd-a389-dfff147b3698",
+          "url": "https://twitter.com/shane__lonergan",
+          "name": "Twitter",
+          "fontAwesomeIcon": "twitter"
+        },
+        {
+          "id": "0806eb36-0fa8-5de9-b954-4a5538addcb0",
+          "url": "https://www.linkedin.com/in/shane-lonergan/",
+          "name": "LinkedIn",
+          "fontAwesomeIcon": "linkedin"
+        }
+      ]
+    },
+    "site": { "siteMetadata": { "deterministicBehaviour": false } }
+  }
+}

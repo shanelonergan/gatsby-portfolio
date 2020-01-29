@@ -1,0 +1,17 @@
+{
+  "data": {
+    "contentfulAbout": {
+      "aboutMe": {
+        "childMarkdownRemark": {
+          "rawMarkdownBody": "Hello 👋 My name is Shane Lonergan. I am a man with many hats, my favorites being full stack web developer, actor, musician, and keyboard enthusiast. Born and raised in Michigan, I went to Oberlin College intending to become a doctor. However, in my first semester I was lucky enough to be cast in a student theater production of the musical Next to Normal,  and my life would never be the same. A burning love of Musical Theater consumed my college years, though I held on to my Biology major, and after graduating I moved to New York to pursue my Broadway dream. After a few years though, I found there was a hole in my life Biology had once filled. In search of something to replace it, I stumbled upon some coding tutorials on youtube, and I was immediately hooked. I attended the Flatiron school, where I learned more in 15 weeks then I ever thought was possible, and met some of the most incredible people doing it. I am now seeking my first job as a developer, and freelancing on the side, and learning as much as I possibly can. Don’t hesitate to reach out!\n"
+        }
+      },
+      "profile": {
+        "title": "Shane ",
+        "image": {
+          "src": "//images.ctfassets.net/u68h6i4dgl0q/6nf3rNaaVaUqYcoAcciSeC/1ab9ec2114c327ca8258b8387b1c7ec7/shane_sunday.jpg?w=450&fl=progressive&q=100"
+        }
+      }
+    }
+  }
+}

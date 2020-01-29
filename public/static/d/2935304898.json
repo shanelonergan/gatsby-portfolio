@@ -1,0 +1,63 @@
+{
+  "data": {
+    "site": { "siteMetadata": { "isMediumUserDefined": true } },
+    "allMediumPost": {
+      "totalCount": 4,
+      "edges": [
+        {
+          "node": {
+            "id": "d3716ba8-5d43-5b57-bf2b-e91681c9ba22",
+            "uniqueSlug": "building-javascript-from-scratch-5caf5e7cc464",
+            "title": "Building JavaScript from Scratch",
+            "createdAt": "Jan 2020",
+            "virtuals": {
+              "subtitle": "Part 1: document.getElementsByClassName",
+              "readingTime": 2.3358490566037737,
+              "previewImage": { "imageId": "1*o0L2M4H7xMQgY69sa-hM-w.png" }
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "99d20179-326c-5605-a6f3-0226e1445a6a",
+            "uniqueSlug": "a-beginners-guide-to-css-frameworks-7bdfb9a1acb0",
+            "title": "A Beginner’s Guide to CSS Frameworks",
+            "createdAt": "Oct 2019",
+            "virtuals": {
+              "subtitle": "An introduction to some of the most popular ways to get your website looking good and fast.",
+              "readingTime": 4.378301886792453,
+              "previewImage": { "imageId": "1*1b1Squ5deh9lpyV-EZ8Xng.jpeg" }
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "2eb0fd25-9494-5f77-a733-2893db74b7a1",
+            "uniqueSlug": "how-to-make-a-beautiful-personal-website-quickly-cab115866134",
+            "title": "How to Make a Beautiful Personal Website Quickly",
+            "createdAt": "Sep 2019",
+            "virtuals": {
+              "subtitle": "Using Jekyll and Github Pages to create and host a great looking website, for free",
+              "readingTime": 5.1301886792452835,
+              "previewImage": { "imageId": "1*bMV4d71xGuwOvVahLoXpZQ.jpeg" }
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "42aff537-ae7d-5fe5-8b61-0a5edf5fb2f9",
+            "uniqueSlug": "creating-new-bash-commands-and-aliases-c9272fd589c4",
+            "title": "Creating new bash commands and aliases",
+            "createdAt": "Sep 2019",
+            "virtuals": {
+              "subtitle": "Streamline your workflow with custom terminal commands",
+              "readingTime": 4.30188679245283,
+              "previewImage": { "imageId": "0*cMLbIq7p7g3nejWg.jpg" }
+            }
+          }
+        }
+      ]
+    },
+    "author": { "username": "sptlonergan", "name": "Shane Lonergan" }
+  }
+}
