@@ -59,7 +59,7 @@ const Footer = () => (
                   Netlify
                 </Link>
                 <span role="img" aria-label="heart">
-                  ❤️
+                  🚀
                 </span>
               </TextFooter>
             </Fade>
