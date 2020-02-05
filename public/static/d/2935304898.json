@@ -1,50 +1,63 @@
 {
   "data": {
-    "site": { "siteMetadata": { "isMediumUserDefined": false } },
+    "site": { "siteMetadata": { "isMediumUserDefined": true } },
     "allMediumPost": {
-      "totalCount": 3,
+      "totalCount": 4,
       "edges": [
         {
           "node": {
-            "id": "7233cd20-d487-54a1-b759-ca0c16682ead",
-            "uniqueSlug": "ad-free-medium-aeee8ef5dacf",
-            "title": "Ad-Free Medium",
-            "createdAt": "Jul 2018",
+            "id": "ccf86a2a-4367-54aa-8b4d-aad1ff89fc01",
+            "uniqueSlug": "tracking-user-streaks-in-ruby-a49e90ce46a1",
+            "title": "Tracking User Streaks in Ruby",
+            "createdAt": "Feb 2020",
             "virtuals": {
-              "subtitle": "We’ve been putting our energy at Medium into improving quality — hosting more thoughtful and carefully written content, and improving the…",
-              "readingTime": 2.641509433962264,
-              "previewImage": { "imageId": "" }
+              "subtitle": "Maintain user engagement through daily habit-tracking",
+              "readingTime": 5.034905660377358,
+              "previewImage": { "imageId": "1*ov0UdO8OowCzTX37bVraVg.jpeg" }
             }
           }
         },
         {
           "node": {
-            "id": "140c0e57-3910-586e-bb6f-c034bbc61d5d",
-            "uniqueSlug": "updating-our-rules-d99d594d1a0c",
-            "title": "Updating Our Rules",
-            "createdAt": "Feb 2018",
+            "id": "d3716ba8-5d43-5b57-bf2b-e91681c9ba22",
+            "uniqueSlug": "building-javascript-from-scratch-5caf5e7cc464",
+            "title": "How Would You Build document.getElementsByClassName From Scratch?",
+            "createdAt": "Jan 2020",
             "virtuals": {
-              "subtitle": "Today, we are updating our rules to help strengthen our community.",
-              "readingTime": 1.0037735849056604,
-              "previewImage": { "imageId": "" }
+              "subtitle": "A look at an interesting interview question",
+              "readingTime": 2.267924528301887,
+              "previewImage": { "imageId": "1*o0L2M4H7xMQgY69sa-hM-w.png" }
             }
           }
         },
         {
           "node": {
-            "id": "e3339325-b1f7-5c30-bf2c-ddbd79d961bc",
-            "uniqueSlug": "",
-            "title": "Medium Rules",
-            "createdAt": "Aug 2012",
+            "id": "99d20179-326c-5605-a6f3-0226e1445a6a",
+            "uniqueSlug": "a-beginners-guide-to-css-frameworks-7bdfb9a1acb0",
+            "title": "A Beginner’s Guide to CSS Frameworks",
+            "createdAt": "Oct 2019",
             "virtuals": {
-              "subtitle": "",
-              "readingTime": 8.754716981132075,
-              "previewImage": { "imageId": "" }
+              "subtitle": "An introduction to some of the most popular ways to get your website looking good and fast.",
+              "readingTime": 4.378301886792453,
+              "previewImage": { "imageId": "1*1b1Squ5deh9lpyV-EZ8Xng.jpeg" }
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "42aff537-ae7d-5fe5-8b61-0a5edf5fb2f9",
+            "uniqueSlug": "creating-new-bash-commands-and-aliases-c9272fd589c4",
+            "title": "Creating new bash commands and aliases",
+            "createdAt": "Sep 2019",
+            "virtuals": {
+              "subtitle": "Streamline your workflow with custom terminal commands",
+              "readingTime": 4.30188679245283,
+              "previewImage": { "imageId": "0*cMLbIq7p7g3nejWg.jpg" }
             }
           }
         }
       ]
     },
-    "author": { "username": "Medium", "name": "Medium" }
+    "author": { "username": "sptlonergan", "name": "Shane Lonergan" }
   }
 }
