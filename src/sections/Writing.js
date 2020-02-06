@@ -47,6 +47,7 @@ const CoverImage = styled.img`
 const EllipsisHeading = styled(Heading)`
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 18px;
   display: -webkit-inline-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
