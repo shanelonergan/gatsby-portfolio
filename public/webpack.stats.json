@@ -1,0 +1,73 @@
+{
+  "errors": [],
+  "warnings": [],
+  "namedChunkGroups": {
+    "app": {
+      "chunks": [6, 0, 1],
+      "assets": [
+        "webpack-runtime-253051dd696b7051be90.js",
+        "webpack-runtime-253051dd696b7051be90.js.map",
+        "commons-13391accde0a6f11cba6.js",
+        "commons-13391accde0a6f11cba6.js.map",
+        "app-7b6b56579a1d636302fa.js",
+        "app-7b6b56579a1d636302fa.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": {
+      "chunks": [2],
+      "assets": [
+        "component---node-modules-gatsby-plugin-offline-app-shell-js-7536247a380c015c1f17.js",
+        "component---node-modules-gatsby-plugin-offline-app-shell-js-7536247a380c015c1f17.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-404-js": {
+      "chunks": [0, 3],
+      "assets": [
+        "commons-13391accde0a6f11cba6.js",
+        "commons-13391accde0a6f11cba6.js.map",
+        "component---src-pages-404-js-827ec4c6346142de5771.js",
+        "component---src-pages-404-js-827ec4c6346142de5771.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-index-js": {
+      "chunks": [0, 5, 4],
+      "assets": [
+        "commons-13391accde0a6f11cba6.js",
+        "commons-13391accde0a6f11cba6.js.map",
+        "styles.d6242795266b7e2ee28a.css",
+        "styles-acb08033be0504630078.js",
+        "styles-acb08033be0504630078.js.map",
+        "component---src-pages-index-js-99940ea641d24eb8a4d5.js",
+        "component---src-pages-index-js-99940ea641d24eb8a4d5.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "assetsByChunkName": {
+    "app": [
+      "webpack-runtime-253051dd696b7051be90.js",
+      "commons-13391accde0a6f11cba6.js",
+      "app-7b6b56579a1d636302fa.js"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-7536247a380c015c1f17.js"
+    ],
+    "component---src-pages-404-js": [
+      "commons-13391accde0a6f11cba6.js",
+      "component---src-pages-404-js-827ec4c6346142de5771.js"
+    ],
+    "component---src-pages-index-js": [
+      "commons-13391accde0a6f11cba6.js",
+      "styles.d6242795266b7e2ee28a.css",
+      "styles-acb08033be0504630078.js",
+      "component---src-pages-index-js-99940ea641d24eb8a4d5.js"
+    ]
+  }
+}
