@@ -36,8 +36,8 @@
           "id": "fba7df09-4d29-595a-8f2c-8bf8ed689fb8",
           "name": "Breathe",
           "description": "A clean application which walks through a meditative breathing cycle based on the Wim Hof method, and tracks daily streaks. ",
-          "projectUrl": "shanelonergan.github.io/breathe",
-          "repositoryUrl": "https://shanelonergan.github.io/breathe/",
+          "projectUrl": "https://shanelonergan.github.io/breathe/",
+          "repositoryUrl": "https://github.com/shanelonergan/breathe",
           "publishedDate": "2019",
           "type": "JS & Rails ",
           "logo": {
