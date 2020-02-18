@@ -6,10 +6,10 @@
           "id": "1a1938f9-3599-56f8-9a65-d81d108d2c7d",
           "name": "Indigo",
           "description": "A clothing resale application created specifically for denim. It allows listing, sorting, and filtering based on denim specific attributes, creating a marketplace tailored to the needs of new and vintage high-quality denim garments.",
-          "projectUrl": "https://github.com/shanelonergan/indigo",
+          "projectUrl": "https://indigo-resale.store/",
           "repositoryUrl": "https://github.com/shanelonergan/indigo",
           "publishedDate": "2019",
-          "type": "Web",
+          "type": "React & Rails ",
           "logo": {
             "title": "Indigo",
             "image": {
@@ -24,7 +24,7 @@
           "projectUrl": "typingroyale.pro",
           "repositoryUrl": "https://github.com/wukrit/typing-royale-frontend",
           "publishedDate": "2019",
-          "type": "Web",
+          "type": "React & Rails",
           "logo": {
             "title": "Typing Royale",
             "image": {
@@ -39,7 +39,7 @@
           "projectUrl": "shanelonergan.github.io/breathe",
           "repositoryUrl": "https://github.com/shanelonergan/breathe",
           "publishedDate": "2019",
-          "type": "Web",
+          "type": "JS & Rails ",
           "logo": {
             "title": "Indigo",
             "image": {

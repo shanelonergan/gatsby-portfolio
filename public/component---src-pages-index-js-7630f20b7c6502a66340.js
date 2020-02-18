@@ -393,12 +393,12 @@
       function H() {
         return document.createElement('div');
       }
-      function z(e, t) {
+      function R(e, t) {
         e.forEach(function(e) {
           e && (e.style.transitionDuration = t + 'ms');
         });
       }
-      function R(e, t) {
+      function z(e, t) {
         e.forEach(function(e) {
           e && e.setAttribute('data-state', t);
         });
@@ -806,12 +806,12 @@
               fe(),
                 (b.style.visibility = 'visible'),
                 (E.state.isVisible = !0),
-                E.state.isMounted || z(O.concat(b), 0);
+                E.state.isMounted || R(O.concat(b), 0);
               (l = function() {
                 E.state.isVisible &&
-                  (z([b], E.props.updateDuration),
-                  z(O, e),
-                  R(O, 'visible'),
+                  (R([b], E.props.updateDuration),
+                  R(O, e),
+                  z(O, 'visible'),
                   le(),
                   se(),
                   X(Ee, E),
@@ -858,8 +858,8 @@
                 (b.style.visibility = 'hidden'),
                 (E.state.isVisible = !1),
                 (E.state.isShown = !1),
-                z(O, e),
-                R(O, 'hidden'),
+                R(O, e),
+                z(O, 'hidden'),
                 le(),
                 se(),
                 (function(e, t) {
@@ -908,7 +908,7 @@
           se(),
           o.lazy || De(),
           ae('onCreate', [E]),
-          o.showOnCreate && ze(),
+          o.showOnCreate && Re(),
           b.addEventListener('mouseenter', function() {
             E.props.interactive && E.state.isVisible && E.clearDelayTimeouts();
           }),
@@ -970,7 +970,7 @@
           });
         }
         function ce() {
-          v.body.removeEventListener('mouseleave', Re),
+          v.body.removeEventListener('mouseleave', ze),
             v.removeEventListener('mousemove', g),
             (Oe = Oe.filter(function(e) {
               return e !== g;
@@ -1058,11 +1058,11 @@
                 o = r[1];
               oe.isTouch && 'hold' === i && o
                 ? (n = setTimeout(function() {
-                    ze(e);
+                    Re(e);
                   }, o))
-                : ze(e);
+                : Re(e);
             } else t = !0;
-            'click' === e.type && (p = !t), t && Re(e);
+            'click' === e.type && (p = !t), t && ze(e);
           }
         }
         function Pe(t) {
@@ -1097,22 +1097,22 @@
                 }),
               t,
             ) &&
-              (ce(), Re(t)));
+              (ce(), ze(t)));
         }
         function Me(e) {
           if (!(_e(e) || (F(E.props.trigger, 'click') && p)))
             return E.props.interactive
-              ? (v.body.addEventListener('mouseleave', Re),
+              ? (v.body.addEventListener('mouseleave', ze),
                 v.addEventListener('mousemove', g),
                 void X(Oe, g))
-              : void Re(e);
+              : void ze(e);
         }
         function Le(e) {
           e.target === $() &&
             ((E.props.interactive &&
               e.relatedTarget &&
               b.contains(e.relatedTarget)) ||
-              Re(e));
+              ze(e));
         }
         function _e(e) {
           var t = 'ontouchstart' in window,
@@ -1193,7 +1193,7 @@
             ? (h++, E.popperInstance.update())
             : l && 1 === h && (h++, b.offsetHeight, l());
         }
-        function ze(e) {
+        function Re(e) {
           E.clearDelayTimeouts(),
             E.popperInstance || De(),
             e && ae('onTrigger', [E, e]),
@@ -1205,7 +1205,7 @@
               }, t))
             : E.show();
         }
-        function Re(e) {
+        function ze(e) {
           if (
             (E.clearDelayTimeouts(),
             ae('onUntrigger', [E, e]),
@@ -1288,9 +1288,9 @@
           n && e.classList[t](n);
         });
       }
-      var ze = _e ? r.useLayoutEffect : r.useEffect;
-      function Re(e, t, n) {
-        ze(function() {
+      var Re = _e ? r.useLayoutEffect : r.useEffect;
+      function ze(e, t, n) {
+        Re(function() {
           var n = e.instance.popperChildren.tooltip;
           if (t)
             return (
@@ -1351,7 +1351,7 @@
         m && (I.trigger = 'manual'), g && (c = !1);
         var A = [t.type];
         return (
-          ze(function() {
+          Re(function() {
             var e = Te(w.ref, I);
             return (
               (w.instance = e),
@@ -1364,7 +1364,7 @@
               }
             );
           }, A),
-          ze(function() {
+          Re(function() {
             if (1 !== w.renders) {
               var e = w.instance;
               e.setProps(I),
@@ -1372,7 +1372,7 @@
                 m && (a ? e.show() : e.hide());
             } else w.renders++;
           }),
-          Re(w, o, A),
+          ze(w, o, A),
           i.a.createElement(
             i.a.Fragment,
             null,
@@ -1972,7 +1972,7 @@
           '200px',
           '200px',
         ),
-        zt = function(e) {
+        Rt = function(e) {
           var t = e.name,
             n = e.description,
             r = e.projectUrl,
@@ -2050,7 +2050,7 @@
             ),
           );
         },
-        Rt = function() {
+        zt = function() {
           return i.a.createElement(
             C.a.Container,
             { id: 'projects', Background: Nt },
@@ -2070,7 +2070,7 @@
                     return i.a.createElement(
                       st.a,
                       { bottom: !0, delay: 200 * t, key: e.id },
-                      i.a.createElement(zt, e),
+                      i.a.createElement(Rt, e),
                     );
                   }),
                 );
@@ -2516,7 +2516,7 @@
           i.a.createElement(tn, null),
           i.a.createElement(rt, null),
           i.a.createElement(gt, null),
-          i.a.createElement(Rt, null),
+          i.a.createElement(zt, null),
           i.a.createElement(Vt, null),
           i.a.createElement(an, null),
         );
@@ -2889,8 +2889,8 @@
             _ = t.nonTerminated,
             D = t.text,
             H = t.reference,
-            z = t.warning,
-            R = t.textContext,
+            R = t.warning,
+            z = t.textContext,
             W = t.referenceContext,
             Z = t.warningContext,
             B = t.position,
@@ -2904,10 +2904,10 @@
             J = [];
           'string' == typeof L && (L = L.charCodeAt(0));
           (j = Q()),
-            (A = z
+            (A = R
               ? function(e, t) {
                   var n = Q();
-                  (n.column += t), (n.offset += t), z.call(Z, v[e], n, e);
+                  (n.column += t), (n.offset += t), R.call(Z, v[e], n, e);
                 }
               : f),
             U--,
@@ -3001,7 +3001,7 @@
           }
           function $() {
             X &&
-              (J.push(X), D && D.call(R, X, { start: j, end: Q() }), (X = ''));
+              (J.push(X), D && D.call(z, X, { start: j, end: Q() }), (X = ''));
           }
         })(e, a);
       };
@@ -3770,7 +3770,7 @@
             return t[e];
           });
         }
-        function z(e, t, n) {
+        function R(e, t, n) {
           n = n.split('-')[0];
           var r = D(e),
             i = { width: r.width, height: r.height },
@@ -3785,7 +3785,7 @@
             i
           );
         }
-        function R(e, t) {
+        function z(e, t) {
           return Array.prototype.find ? e.find(t) : e.filter(t)[0];
         }
         function W(e, t, n) {
@@ -3799,7 +3799,7 @@
                       return e.findIndex(function(e) {
                         return e[t] === n;
                       });
-                    var r = R(e, function(e) {
+                    var r = z(e, function(e) {
                       return e[t] === n;
                     });
                     return e.indexOf(r);
@@ -3846,7 +3846,7 @@
               )),
               (e.originalPlacement = e.placement),
               (e.positionFixed = this.options.positionFixed),
-              (e.offsets.popper = z(
+              (e.offsets.popper = R(
                 this.popper,
                 e.offsets.reference,
                 e.placement,
@@ -3962,7 +3962,7 @@
         }
         var K = r && /Firefox/i.test(navigator.userAgent);
         function Q(e, t, n) {
-          var r = R(e, function(e) {
+          var r = z(e, function(e) {
               return e.name === t;
             }),
             i =
@@ -4019,7 +4019,7 @@
               return e.trim();
             }),
             l = a.indexOf(
-              R(a, function(e) {
+              z(a, function(e) {
                 return -1 !== e.search(/,|\s/);
               }),
             );
@@ -4359,7 +4359,7 @@
                         (e.offsets.popper = k(
                           {},
                           e.offsets.popper,
-                          z(
+                          R(
                             e.instance.popper,
                             e.offsets.reference,
                             e.placement,
@@ -4403,7 +4403,7 @@
                   if (!Q(e.instance.modifiers, 'hide', 'preventOverflow'))
                     return e;
                   var t = e.offsets.reference,
-                    n = R(e.instance.modifiers, function(e) {
+                    n = z(e.instance.modifiers, function(e) {
                       return 'preventOverflow' === e.name;
                     }).boundaries;
                   if (
@@ -4428,7 +4428,7 @@
                   var n = t.x,
                     r = t.y,
                     i = e.offsets.popper,
-                    o = R(e.instance.modifiers, function(e) {
+                    o = z(e.instance.modifiers, function(e) {
                       return 'applyStyle' === e.name;
                     }).gpuAcceleration;
                   void 0 !== o &&
@@ -7777,68 +7777,68 @@
           _ = this.options.pedantic,
           D = this.blockTokenizers,
           H = this.interruptList,
-          z = 0,
-          R = t.length,
+          R = 0,
+          z = t.length,
           W = null,
           Z = 0;
-        for (; z < R; ) {
-          if ('\t' === (c = t.charAt(z))) Z += 4 - (Z % 4);
+        for (; R < z; ) {
+          if ('\t' === (c = t.charAt(R))) Z += 4 - (Z % 4);
           else {
             if (' ' !== c) break;
             Z++;
           }
-          z++;
+          R++;
         }
         if (Z >= 4) return;
-        if (((c = t.charAt(z)), (i = L ? g : m), !0 === h[c]))
+        if (((c = t.charAt(R)), (i = L ? g : m), !0 === h[c]))
           (u = c), (l = !1);
         else {
-          for (l = !0, a = ''; z < R && ((c = t.charAt(z)), o(c)); )
-            (a += c), z++;
-          if (((c = t.charAt(z)), !a || !0 !== i[c])) return;
+          for (l = !0, a = ''; R < z && ((c = t.charAt(R)), o(c)); )
+            (a += c), R++;
+          if (((c = t.charAt(R)), !a || !0 !== i[c])) return;
           (W = parseInt(a, 10)), (u = c);
         }
-        if (' ' !== (c = t.charAt(++z)) && '\t' !== c) return;
+        if (' ' !== (c = t.charAt(++R)) && '\t' !== c) return;
         if (n) return !0;
-        (z = 0), (C = []), (x = []), (k = []);
-        for (; z < R; ) {
+        (R = 0), (C = []), (x = []), (k = []);
+        for (; R < z; ) {
           for (
-            f = t.indexOf('\n', z),
-              p = z,
+            f = t.indexOf('\n', R),
+              p = R,
               d = !1,
               M = !1,
-              -1 === f && (f = R),
-              P = z + 4,
+              -1 === f && (f = z),
+              P = R + 4,
               Z = 0;
-            z < R;
+            R < z;
 
           ) {
-            if ('\t' === (c = t.charAt(z))) Z += 4 - (Z % 4);
+            if ('\t' === (c = t.charAt(R))) Z += 4 - (Z % 4);
             else {
               if (' ' !== c) break;
               Z++;
             }
-            z++;
+            R++;
           }
           if (
             (Z >= 4 && (M = !0),
             O && Z >= O.indent && (M = !0),
-            (c = t.charAt(z)),
+            (c = t.charAt(R)),
             (y = null),
             !M)
           ) {
-            if (!0 === h[c]) (y = c), z++, Z++;
+            if (!0 === h[c]) (y = c), R++, Z++;
             else {
-              for (a = ''; z < R && ((c = t.charAt(z)), o(c)); ) (a += c), z++;
-              (c = t.charAt(z)),
-                z++,
+              for (a = ''; R < z && ((c = t.charAt(R)), o(c)); ) (a += c), R++;
+              (c = t.charAt(R)),
+                R++,
                 a && !0 === i[c] && ((y = c), (Z += a.length + 1));
             }
             if (y)
-              if ('\t' === (c = t.charAt(z))) (Z += 4 - (Z % 4)), z++;
+              if ('\t' === (c = t.charAt(R))) (Z += 4 - (Z % 4)), R++;
               else if (' ' === c) {
-                for (P = z + 4; z < P && ' ' === t.charAt(z); ) z++, Z++;
-                z === P && ' ' === t.charAt(z) && ((z -= 3), (Z -= 3));
+                for (P = R + 4; R < P && ' ' === t.charAt(R); ) R++, Z++;
+                R === P && ' ' === t.charAt(R) && ((R -= 3), (Z -= 3));
               } else '\n' !== c && '' !== c && (y = null);
           }
           if (y) {
@@ -7849,10 +7849,10 @@
               ? L && O && (M = Z >= O.indent || Z > 4)
               : (M = !0),
               (d = !1),
-              (z = p);
+              (R = p);
           if (
             ((w = t.slice(p, f)),
-            (b = p === z ? w : t.slice(z, f)),
+            (b = p === R ? w : t.slice(R, f)),
             ('*' === y || '_' === y || '-' === y) &&
               D.thematicBreak.call(this, e, w, !0))
           )
@@ -7873,7 +7873,7 @@
             if (s(H, D, this, [e, w, !0])) break;
             (O.value = O.value.concat(k, w)), (x = x.concat(k, w)), (k = []);
           }
-          z = f + 1;
+          R = f + 1;
         }
         (j = e(x.join('\n')).reset({
           type: 'list',
@@ -7885,14 +7885,14 @@
           (E = this.enterList()),
           (S = this.enterBlock()),
           (T = !1),
-          (z = -1),
-          (R = C.length);
-        for (; ++z < R; )
-          (O = C[z].value.join('\n')),
+          (R = -1),
+          (z = C.length);
+        for (; ++R < z; )
+          (O = C[R].value.join('\n')),
             (N = e.now()),
             (O = e(O)(v(this, O, N), j)).loose && (T = !0),
-            (O = C[z].trail.join('\n')),
-            z !== R - 1 && (O += '\n'),
+            (O = C[R].trail.join('\n')),
+            R !== z - 1 && (O += '\n'),
             e(O);
         return E(), S(), (j.loose = T), j;
       };
@@ -9738,7 +9738,7 @@
     },
     function(e) {
       e.exports = JSON.parse(
-        '{"data":{"contentfulAbout":{"projects":[{"id":"1a1938f9-3599-56f8-9a65-d81d108d2c7d","name":"Indigo","description":"A clothing resale application created specifically for denim. It allows listing, sorting, and filtering based on denim specific attributes, creating a marketplace tailored to the needs of new and vintage high-quality denim garments.","projectUrl":"https://github.com/shanelonergan/indigo","repositoryUrl":"https://github.com/shanelonergan/indigo","publishedDate":"2019","type":"Web","logo":{"title":"Indigo","image":{"src":"//images.ctfassets.net/u68h6i4dgl0q/3AorRmtWOsGQ4o8gK0YWKG/d6be72e17198cae228828413ba5da963/indigo-home-1_copy.png?w=200&fl=progressive&q=100"}}},{"id":"89fd112c-25c8-5f1e-a4ff-71ad97be4948","name":"Typing Royale","description":"A retro themed typing game that allows players to compete head to head over the web.","projectUrl":"typingroyale.pro","repositoryUrl":"https://github.com/wukrit/typing-royale-frontend","publishedDate":"2019","type":"Web","logo":{"title":"Typing Royale","image":{"src":"//images.ctfassets.net/u68h6i4dgl0q/u3Um4zkMrAaQioyq4oSIW/e76f23c15b3ff22bd5d92604d5750c52/Screen_Shot_2020-01-28_at_9.53.56_PM.png?w=200&fl=progressive&q=100"}}},{"id":"fba7df09-4d29-595a-8f2c-8bf8ed689fb8","name":"Breathe","description":"A clean application which walks through a meditative breathing cycle based on the Wim Hof method, and tracks daily streaks. ","projectUrl":"shanelonergan.github.io/breathe","repositoryUrl":"https://github.com/shanelonergan/breathe","publishedDate":"2019","type":"Web","logo":{"title":"Indigo","image":{"src":"//images.ctfassets.net/u68h6i4dgl0q/6rkOXCpyvuekYIgy6U6gGu/1a0ac51178a41d25349d29349800567a/Screen_Shot_2020-01-28_at_9.54.32_PM.png?w=200&fl=progressive&q=100"}}}]}}}',
+        '{"data":{"contentfulAbout":{"projects":[{"id":"1a1938f9-3599-56f8-9a65-d81d108d2c7d","name":"Indigo","description":"A clothing resale application created specifically for denim. It allows listing, sorting, and filtering based on denim specific attributes, creating a marketplace tailored to the needs of new and vintage high-quality denim garments.","projectUrl":"https://indigo-resale.store/","repositoryUrl":"https://github.com/shanelonergan/indigo","publishedDate":"2019","type":"React & Rails ","logo":{"title":"Indigo","image":{"src":"//images.ctfassets.net/u68h6i4dgl0q/3AorRmtWOsGQ4o8gK0YWKG/d6be72e17198cae228828413ba5da963/indigo-home-1_copy.png?w=200&fl=progressive&q=100"}}},{"id":"89fd112c-25c8-5f1e-a4ff-71ad97be4948","name":"Typing Royale","description":"A retro themed typing game that allows players to compete head to head over the web.","projectUrl":"typingroyale.pro","repositoryUrl":"https://github.com/wukrit/typing-royale-frontend","publishedDate":"2019","type":"React & Rails","logo":{"title":"Typing Royale","image":{"src":"//images.ctfassets.net/u68h6i4dgl0q/u3Um4zkMrAaQioyq4oSIW/e76f23c15b3ff22bd5d92604d5750c52/Screen_Shot_2020-01-28_at_9.53.56_PM.png?w=200&fl=progressive&q=100"}}},{"id":"fba7df09-4d29-595a-8f2c-8bf8ed689fb8","name":"Breathe","description":"A clean application which walks through a meditative breathing cycle based on the Wim Hof method, and tracks daily streaks. ","projectUrl":"shanelonergan.github.io/breathe","repositoryUrl":"https://github.com/shanelonergan/breathe","publishedDate":"2019","type":"JS & Rails ","logo":{"title":"Indigo","image":{"src":"//images.ctfassets.net/u68h6i4dgl0q/6rkOXCpyvuekYIgy6U6gGu/1a0ac51178a41d25349d29349800567a/Screen_Shot_2020-01-28_at_9.54.32_PM.png?w=200&fl=progressive&q=100"}}}]}}}',
       );
     },
     function(e) {
@@ -10205,4 +10205,4 @@
     },
   ]),
 ]);
-//# sourceMappingURL=component---src-pages-index-js-99940ea641d24eb8a4d5.js.map
+//# sourceMappingURL=component---src-pages-index-js-7630f20b7c6502a66340.js.map
