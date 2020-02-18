@@ -21,7 +21,7 @@
           "id": "89fd112c-25c8-5f1e-a4ff-71ad97be4948",
           "name": "Typing Royale",
           "description": "A retro themed typing game that allows players to compete head to head over the web.",
-          "projectUrl": "typingroyale.pro",
+          "projectUrl": "https://typingroyale.pro/",
           "repositoryUrl": "https://github.com/wukrit/typing-royale-frontend",
           "publishedDate": "2019",
           "type": "React & Rails",
@@ -37,7 +37,7 @@
           "name": "Breathe",
           "description": "A clean application which walks through a meditative breathing cycle based on the Wim Hof method, and tracks daily streaks. ",
           "projectUrl": "shanelonergan.github.io/breathe",
-          "repositoryUrl": "https://github.com/shanelonergan/breathe",
+          "repositoryUrl": "https://shanelonergan.github.io/breathe/",
           "publishedDate": "2019",
           "type": "JS & Rails ",
           "logo": {
