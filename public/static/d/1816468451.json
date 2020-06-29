@@ -38,6 +38,12 @@
           "url": "https://www.linkedin.com/in/shane-lonergan/",
           "name": "LinkedIn",
           "fontAwesomeIcon": "linkedin"
+        },
+        {
+          "id": "fb541ad5-8e00-5945-b9bd-11503b6fe279",
+          "url": "https://dev.to/shane__lonergan",
+          "name": "DEV",
+          "fontAwesomeIcon": "dev"
         }
       ]
     },

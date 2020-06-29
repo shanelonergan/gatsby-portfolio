@@ -46,6 +46,21 @@
               "src": "//images.ctfassets.net/u68h6i4dgl0q/6rkOXCpyvuekYIgy6U6gGu/1a0ac51178a41d25349d29349800567a/Screen_Shot_2020-01-28_at_9.54.32_PM.png?w=200&fl=progressive&q=100"
             }
           }
+        },
+        {
+          "id": "ed61ae8f-ba5b-596b-ad17-fb638df38c5a",
+          "name": "Riley J Ewing Personal Website",
+          "description": "Personal website for actor and filmaker Riley J Ewing",
+          "projectUrl": "https://rileyjewing.com/",
+          "repositoryUrl": null,
+          "publishedDate": "2020",
+          "type": "Gatsby",
+          "logo": {
+            "title": "Riley Screenshot",
+            "image": {
+              "src": "//images.ctfassets.net/u68h6i4dgl0q/Trrqf7RDZ12JgPn2jL3Me/2f969d7b84515aafafc3b4962ec8af33/riley.png?w=200&fl=progressive&q=100"
+            }
+          }
         }
       ]
     }
