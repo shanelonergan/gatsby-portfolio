@@ -35,6 +35,7 @@ const plugins = [
   },
   'gatsby-transformer-remark',
   'gatsby-plugin-offline',
+  `gatsby-plugin-flow`,
 ];
 
 module.exports = client.getEntries().then(entries => {

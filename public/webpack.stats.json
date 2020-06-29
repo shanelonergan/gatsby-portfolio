@@ -5,10 +5,10 @@
     "app": {
       "chunks": [6, 0, 1],
       "assets": [
-        "webpack-runtime-1366d00194fbfcd51c80.js",
-        "webpack-runtime-1366d00194fbfcd51c80.js.map",
-        "commons-13391accde0a6f11cba6.js",
-        "commons-13391accde0a6f11cba6.js.map",
+        "webpack-runtime-0b2d982c27daec4bf71d.js",
+        "webpack-runtime-0b2d982c27daec4bf71d.js.map",
+        "commons-906bc94157e9eb92f695.js",
+        "commons-906bc94157e9eb92f695.js.map",
         "app-7b6b56579a1d636302fa.js",
         "app-7b6b56579a1d636302fa.js.map"
       ],
@@ -27,8 +27,8 @@
     "component---src-pages-404-js": {
       "chunks": [0, 3],
       "assets": [
-        "commons-13391accde0a6f11cba6.js",
-        "commons-13391accde0a6f11cba6.js.map",
+        "commons-906bc94157e9eb92f695.js",
+        "commons-906bc94157e9eb92f695.js.map",
         "component---src-pages-404-js-827ec4c6346142de5771.js",
         "component---src-pages-404-js-827ec4c6346142de5771.js.map"
       ],
@@ -38,13 +38,13 @@
     "component---src-pages-index-js": {
       "chunks": [0, 5, 4],
       "assets": [
-        "commons-13391accde0a6f11cba6.js",
-        "commons-13391accde0a6f11cba6.js.map",
+        "commons-906bc94157e9eb92f695.js",
+        "commons-906bc94157e9eb92f695.js.map",
         "styles.d6242795266b7e2ee28a.css",
-        "styles-6f95fe983d2484376466.js",
-        "styles-6f95fe983d2484376466.js.map",
-        "component---src-pages-index-js-0fa39b0c21e62004e7af.js",
-        "component---src-pages-index-js-0fa39b0c21e62004e7af.js.map"
+        "styles-e699dc50ed4c5f3103b9.js",
+        "styles-e699dc50ed4c5f3103b9.js.map",
+        "component---src-pages-index-js-59b795c9981d05815a8b.js",
+        "component---src-pages-index-js-59b795c9981d05815a8b.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -52,22 +52,22 @@
   },
   "assetsByChunkName": {
     "app": [
-      "webpack-runtime-1366d00194fbfcd51c80.js",
-      "commons-13391accde0a6f11cba6.js",
+      "webpack-runtime-0b2d982c27daec4bf71d.js",
+      "commons-906bc94157e9eb92f695.js",
       "app-7b6b56579a1d636302fa.js"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-7536247a380c015c1f17.js"
     ],
     "component---src-pages-404-js": [
-      "commons-13391accde0a6f11cba6.js",
+      "commons-906bc94157e9eb92f695.js",
       "component---src-pages-404-js-827ec4c6346142de5771.js"
     ],
     "component---src-pages-index-js": [
-      "commons-13391accde0a6f11cba6.js",
+      "commons-906bc94157e9eb92f695.js",
       "styles.d6242795266b7e2ee28a.css",
-      "styles-6f95fe983d2484376466.js",
-      "component---src-pages-index-js-0fa39b0c21e62004e7af.js"
+      "styles-e699dc50ed4c5f3103b9.js",
+      "component---src-pages-index-js-59b795c9981d05815a8b.js"
     ]
   }
 }
