@@ -4,6 +4,7 @@ import Tippy from '@tippy.js/react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import FontAwesomeIcon from 'react-fontawesome';
+import { faPen } from '@fortawesome/free-solid-svg-icons';
 import 'tippy.js/dist/tippy.css'; // eslint-disable-line
 
 const IconLink = styled(Link)`

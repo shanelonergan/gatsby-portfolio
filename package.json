@@ -32,6 +32,7 @@
   "homepage": "https://github.com/EmaSuriano/gatsby-starter-mate#readme",
   "dependencies": {
     "@babel/helper-compilation-targets": "^7.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
     "@tippy.js/react": "^3.1.1",
     "contentful": "^7.14.4",
     "dotenv": "^8.2.0",
