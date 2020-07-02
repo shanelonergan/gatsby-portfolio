@@ -5,8 +5,8 @@
     "app": {
       "chunks": [6, 0, 1],
       "assets": [
-        "webpack-runtime-58fdd8992e36066772bf.js",
-        "webpack-runtime-58fdd8992e36066772bf.js.map",
+        "webpack-runtime-416897fd2006690fb09f.js",
+        "webpack-runtime-416897fd2006690fb09f.js.map",
         "commons-906bc94157e9eb92f695.js",
         "commons-906bc94157e9eb92f695.js.map",
         "app-7b6b56579a1d636302fa.js",
@@ -41,10 +41,10 @@
         "commons-906bc94157e9eb92f695.js",
         "commons-906bc94157e9eb92f695.js.map",
         "styles.d6242795266b7e2ee28a.css",
-        "styles-d2ce84fb0b5fd783f7cb.js",
-        "styles-d2ce84fb0b5fd783f7cb.js.map",
-        "component---src-pages-index-js-935310a0a2f32804dfd9.js",
-        "component---src-pages-index-js-935310a0a2f32804dfd9.js.map"
+        "styles-22233e7002d01d4bd1b7.js",
+        "styles-22233e7002d01d4bd1b7.js.map",
+        "component---src-pages-index-js-c6b796249784904cf605.js",
+        "component---src-pages-index-js-c6b796249784904cf605.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -52,7 +52,7 @@
   },
   "assetsByChunkName": {
     "app": [
-      "webpack-runtime-58fdd8992e36066772bf.js",
+      "webpack-runtime-416897fd2006690fb09f.js",
       "commons-906bc94157e9eb92f695.js",
       "app-7b6b56579a1d636302fa.js"
     ],
@@ -66,8 +66,8 @@
     "component---src-pages-index-js": [
       "commons-906bc94157e9eb92f695.js",
       "styles.d6242795266b7e2ee28a.css",
-      "styles-d2ce84fb0b5fd783f7cb.js",
-      "component---src-pages-index-js-935310a0a2f32804dfd9.js"
+      "styles-22233e7002d01d4bd1b7.js",
+      "component---src-pages-index-js-c6b796249784904cf605.js"
     ]
   }
 }
