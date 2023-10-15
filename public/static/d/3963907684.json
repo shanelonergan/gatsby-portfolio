@@ -2,7 +2,7 @@
   "data": {
     "site": { "siteMetadata": { "isMediumUserDefined": true } },
     "allMediumPost": {
-      "totalCount": 4,
+      "totalCount": 3,
       "edges": [
         {
           "node": {
@@ -40,19 +40,6 @@
               "subtitle": "A look at an interesting interview question",
               "readingTime": 2.267924528301887,
               "previewImage": { "imageId": "1*o0L2M4H7xMQgY69sa-hM-w.png" }
-            }
-          }
-        },
-        {
-          "node": {
-            "id": "42aff537-ae7d-5fe5-8b61-0a5edf5fb2f9",
-            "uniqueSlug": "creating-new-bash-commands-and-aliases-c9272fd589c4",
-            "title": "Creating new bash commands and aliases",
-            "createdAt": "Sep 2019",
-            "virtuals": {
-              "subtitle": "Streamline your workflow with custom terminal commands",
-              "readingTime": 4.30188679245283,
-              "previewImage": { "imageId": "0*cMLbIq7p7g3nejWg.jpg" }
             }
           }
         }

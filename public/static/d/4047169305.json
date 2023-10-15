@@ -1,0 +1,22 @@
+{
+  "data": {
+    "contentfulAbout": {
+      "name": "Shane",
+      "description": "Shane Lonergan Portfolio",
+      "profile": {
+        "favicon16": {
+          "src": "//images.ctfassets.net/u68h6i4dgl0q/6nf3rNaaVaUqYcoAcciSeC/f31ee34c76ce083a08739674b8961ffb/shane-sunday.jpeg?w=16&fl=progressive&q=50"
+        },
+        "favicon32": {
+          "src": "//images.ctfassets.net/u68h6i4dgl0q/6nf3rNaaVaUqYcoAcciSeC/f31ee34c76ce083a08739674b8961ffb/shane-sunday.jpeg?w=32&fl=progressive&q=50"
+        },
+        "bigIcon": {
+          "src": "//images.ctfassets.net/u68h6i4dgl0q/6nf3rNaaVaUqYcoAcciSeC/f31ee34c76ce083a08739674b8961ffb/shane-sunday.jpeg?w=192&fl=progressive&q=50"
+        },
+        "appleIcon": {
+          "src": "//images.ctfassets.net/u68h6i4dgl0q/6nf3rNaaVaUqYcoAcciSeC/f31ee34c76ce083a08739674b8961ffb/shane-sunday.jpeg?w=180&fl=progressive&q=50"
+        }
+      }
+    }
+  }
+}

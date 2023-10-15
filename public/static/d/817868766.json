@@ -1,0 +1,68 @@
+{
+  "data": {
+    "contentfulAbout": {
+      "projects": [
+        {
+          "id": "ed61ae8f-ba5b-596b-ad17-fb638df38c5a",
+          "name": "Riley J Ewing Personal Website",
+          "description": "Personal website for actor and filmaker Riley J Ewing",
+          "projectUrl": "https://rileyjewing.com/",
+          "repositoryUrl": null,
+          "publishedDate": "2020",
+          "type": "Gatsby",
+          "logo": {
+            "title": "Riley Screenshot",
+            "image": {
+              "src": "//images.ctfassets.net/u68h6i4dgl0q/Trrqf7RDZ12JgPn2jL3Me/2f969d7b84515aafafc3b4962ec8af33/riley.png?w=200&fl=progressive&q=100"
+            }
+          }
+        },
+        {
+          "id": "382ffc8b-fac7-5cd4-938a-2cc5f19d144e",
+          "name": "Indigo",
+          "description": "A proof-of-concept clothing resale application created specifically for denim. It allows listing, sorting, and filtering based on denim specific attributes, creating a marketplace tailored to the needs of new and vintage high-quality denim garments.",
+          "projectUrl": "https://indigo-resale.store/",
+          "repositoryUrl": "https://github.com/shanelonergan/indigo",
+          "publishedDate": "2019",
+          "type": "React & Rails",
+          "logo": {
+            "title": "Indigo",
+            "image": {
+              "src": "//images.ctfassets.net/u68h6i4dgl0q/7CaOPIMMCbjoYcMyVt4s46/6c1aefda405bb3032ebbc896fc181464/indigo-home-1_copy.png?w=200&fl=progressive&q=100"
+            }
+          }
+        },
+        {
+          "id": "dadf606b-e140-532b-b3af-8dbdad97e833",
+          "name": "Typing Royale",
+          "description": "A retro themed typing game that allows players to compete head to head over the web.",
+          "projectUrl": "https://typingroyale.pro/",
+          "repositoryUrl": "https://github.com/wukrit/typing-royale-frontend",
+          "publishedDate": "2019",
+          "type": "React & Rails",
+          "logo": {
+            "title": "Typing Royale",
+            "image": {
+              "src": "//images.ctfassets.net/u68h6i4dgl0q/72R1K2ZU9preRKcoWxRdqx/cd8f4aaa812addab67d9612ccab16cb5/Typing_Royale.png?w=200&fl=progressive&q=100"
+            }
+          }
+        },
+        {
+          "id": "1706f055-1c36-5082-8234-7b025294cc12",
+          "name": "Breathe",
+          "description": "A clean application which walks through a meditative breathing cycle based on the Wim Hof method, and tracks daily streaks. ",
+          "projectUrl": "https://shanelonergan.github.io/breathe/",
+          "repositoryUrl": "https://github.com/shanelonergan/breathe",
+          "publishedDate": "2019",
+          "type": "JS & Rails",
+          "logo": {
+            "title": "Breathe",
+            "image": {
+              "src": "//images.ctfassets.net/u68h6i4dgl0q/tEKkBpsXCS7nE1LpieGVJ/5d7391c663c1119fe4675c6bcae57cee/Screen_Shot_2023-10-15_at_2.30.16_PM.png?w=200&fl=progressive&q=100"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

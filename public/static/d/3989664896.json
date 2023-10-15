@@ -17,21 +17,15 @@
         },
         {
           "id": "0e71cbfd-ee90-56a5-b365-d538d8a7171a",
-          "url": "https://www.blog.shanelonergan.dev/",
-          "name": "Blog",
-          "fontAwesomeIcon": "pencil"
+          "url": "https://medium.com/@sptlonergan",
+          "name": "Medium",
+          "fontAwesomeIcon": "medium"
         },
         {
           "id": "84da2bc3-d7ca-5fb9-add6-a01b3df06489",
           "url": "https://shane823656.typeform.com/to/gXwRT3",
           "name": "Contact me",
           "fontAwesomeIcon": "envelope"
-        },
-        {
-          "id": "e45de385-02a6-50fd-a389-dfff147b3698",
-          "url": "https://twitter.com/shane__lonergan",
-          "name": "Twitter",
-          "fontAwesomeIcon": "twitter"
         },
         {
           "id": "0806eb36-0fa8-5de9-b954-4a5538addcb0",
@@ -46,6 +40,7 @@
           "fontAwesomeIcon": "dev"
         }
       ]
-    }
+    },
+    "site": { "siteMetadata": { "deterministicBehaviour": false } }
   }
 }
