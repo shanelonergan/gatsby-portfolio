@@ -60,8 +60,7 @@
     "react-text-loop": "^2.0.1",
     "rebass": "^3.0.0",
     "sharp": "^0.32.6",
-    "styled-components": "^4.0.2",
-    "webpack": "^5.89.0"
+    "styled-components": "^4.0.2"
   },
   "devDependencies": {
     "@percy/cypress": "^2.3.1",
